@@ -32,7 +32,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     - Email: kiprutohcollo@gmail.com
     - Phone No. : +254 741280908
 
- ## License and Copyright Information
+ ## License 
+  licensed under[MIT license](license).
+
+ ## Copyright Information
+   © 2020 Copyright : Collins Kiprutoh
+
 
 
 
