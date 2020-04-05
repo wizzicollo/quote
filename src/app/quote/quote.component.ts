@@ -1,21 +1,3 @@
-// import { Component, OnInit } from '@angular/core';
-
-// @Component({
-//   selector: 'app-quote',
-//   templateUrl: './quote.component.html',
-//   styleUrls: ['./quote.component.css']
-// })
-// export class QuoteComponent implements OnInit {
-
-//   constructor() { }
-
-//   ngOnInit(): void {
-//   }
-
-// }
-
-
-
 
 import { Component, OnInit } from "@angular/core";
 import { Quote } from "../quote";
@@ -35,39 +17,39 @@ export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote(
       1,
-      "Posted by Abdifatah",
-      "There is no true Liberation, without the liberation of a woman",
-      new Date(2019, 11, 12)
+      "Posted by Mother Teresa",
+      "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+      new Date(2020, 4, 5)
     ),
     new Quote(
       2,
-      "Posted by Steve Jobs",
-      "If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.",
-      new Date(2019, 11, 12)
+      "Posted by Franklin D. Roosevelt",
+      "When you reach the end of your rope, tie a knot in it and hang on.",
+      new Date(2020, 4, 5)
     ),
     new Quote(
       3,
-      "Posted by JWinston Churchill",
-      "The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.",
-      new Date(2019, 11, 12)
+      "Posted by Margaret Mead",
+      "Always remember that you are absolutely unique. Just like everyone else.",
+      new Date(2020, 4, 5)
     ),
     new Quote(
       4,
-      "Posted By Evans",
-      "Pupper likes expensive snacks",
-      new Date(2019, 11, 12)
+      "Posted By Robert Louis Stevenson",
+      "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+      new Date(2020, 4, 5)
     ),
     new Quote(
       5,
-      "Posted By Unknown",
-      "You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.",
-      new Date(2019, 11, 12)
+      "Posted By Eleanor Roosevelt",
+      "The future belongs to those who believe in the beauty of their dreams..",
+      new Date(2020, 4, 5)
     ),
     new Quote(
       6,
-      "Posted by Will Rogers",
-      "Don’t Let Yesterday Take Up Too Much Of Today.",
-      new Date(2019, 12, 1)
+      "Posted by Benjamin Franklin",
+      ".Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+      new Date(2020, 4, 5)
     )
   ];
   toggleDetails(index) {
