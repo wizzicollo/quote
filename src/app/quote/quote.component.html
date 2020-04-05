@@ -7,7 +7,7 @@
         <h1 class="text-center fadeIn">Quotes-Book App</h1>
         <p class="text-center">Express your ideas & thoughts to the world</p>
         <div class="text-center pt-1">
-            <a href="#addquote" class="btn btn-outline-success btn-lg p-1 mybtn">Create Quote</a>
+            <a href="#addquote" class="btn btn-outline-success btn-lg p-1 mybtn">Write Quote</a>
            
         </div>
     </div>
@@ -32,7 +32,7 @@
                     <div class="card mb-3 shadow p-3 mycard">
                         <div>
                             <h6 class="badge" id="{{ i }}" appStrikethrough>
-                                {{ quote.name }} <span class="blockquote-footer">This quote was posted: </span>
+                                {{ quote.name }} <span class="blockquote-footer"></span>Posted on: 
                             </h6>
                             &nbsp;
                             <small><button (click)="toggleDetails(i)" (click)="quote.hide = !quote.hide"

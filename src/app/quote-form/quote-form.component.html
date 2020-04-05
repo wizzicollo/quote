@@ -2,11 +2,11 @@
 <br> <br>
 <p>
     <marquee behaviour="scroll" width="1000px" height="px" color="white">
-        <strong><i>Write down your Fantasies and be part of us!</i></strong></marquee>
+        <strong><i>Write your quote below</i></strong></marquee>
 </p>
 
 <div class="container-fluid">
-    <h2 class="text-center">Write your Quote</h2>
+    <h2 class="text-center"></h2>
     <hr />
     <form (ngSubmit)="submitQuote()" #quoteForm="ngForm">
       <div class="form-group">
@@ -42,7 +42,7 @@
           <p>Description is required</p>
         </div>
       </div>
-      <!-- <div class="form-group">
+      <div class="form-group">
         <label for="complete">Date: </label>
         <input
           type="date"
@@ -59,7 +59,7 @@
         >
           <p>Date is required</p>
         </div>
-      </div> -->
+      </div>
       <button type="submit" class="btn btn-success">Add Quote</button>
     </form>
   </div>

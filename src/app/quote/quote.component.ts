@@ -24,7 +24,7 @@ export class QuoteComponent implements OnInit {
     ),
     new Quote(
       2,
-      "Author: Franklin Roosevelt",
+      "Author: Franklin Rosevel",
       "When you reach the end of your rope, tie a knot in it and hang on.",
       new Date(2020, 4, 5)
     ),
@@ -42,7 +42,7 @@ export class QuoteComponent implements OnInit {
     ),
     new Quote(
       5,
-      "Author: Eleanor Roosevelt",
+      "Author: Eleano Roosevelt",
       "The future belongs to those who believe in the beauty of their dreams..",
       new Date(2020, 4, 5)
     ),

@@ -14,7 +14,9 @@
     font-size: xx-large;
     color: grey;
   }
-  
+  .container-fluid{
+      background-color: khaki;
+  }
   .mybtn {
     font-size: 20px;
     font-weight: bold;
