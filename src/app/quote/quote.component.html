@@ -12,12 +12,12 @@
         </div>
     </div>
 </div>
-<!-- <particles
+<particles
     [params]="myParams"
     [style]="myStyle"
     [width]="width"
     [height]="height"
-  ></particles> -->
+  ></particles>
 <br /><br>
 <p>
     <marquee behaviour="scroll" width="1000px" height="px" color="white">
@@ -32,7 +32,7 @@
                     <div class="card mb-3 shadow p-3 mycard">
                         <div>
                             <h6 class="badge" id="{{ i }}" appStrikethrough>
-                                <!-- {{ quote.name }} <span class="blockquote-footer">This quote was posted: {{ quote.completeDate | timeAgo}}</span> -->
+                                {{ quote.name }} <span class="blockquote-footer">This quote was posted: {{ quote.completeDate | TimeAgo}}</span>
                             </h6>
                             &nbsp;
                             <small><button (click)="toggleDetails(i)" (click)="quote.hide = !quote.hide"
@@ -65,7 +65,7 @@
         All Rights Reserved 2020 <br>
         Copyright &copy; Quotes-Book Co. <br>
 
-        <!-- <a href="quote.component.html" class="link"> Kiprutoh collo</a> -->
+        <a href="quote.component.html" class="link"> Kiprutoh collo</a>
     </div>
 
     
