@@ -1,5 +1,4 @@
-// export class Quote {
-// }
+
 export class Quote {
     showDescription: boolean;
     constructor(
