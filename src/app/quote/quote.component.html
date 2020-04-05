@@ -1,1 +1,74 @@
-<p>quote works!</p>
+<!-- <p>quote works!</p> -->
+
+<!-- collo -->
+
+<div class="myquote">
+    <br />
+    <br />
+    <div class="container-fluid">
+        <h1 class="text-center fadeIn">Quotes-Book App</h1>
+        <p class="text-center">Express your ideas & thoughts to the world</p>
+        <div class="text-center pt-1">
+            <a href="#addquote" class="btn btn-outline-success btn-lg p-1 mybtn">Create Quote</a>
+            <!-- <img src="/quote/src/assets/poe3.jpeg"> -->
+        </div>
+    </div>
+</div>
+<!-- <particles
+    [params]="myParams"
+    [style]="myStyle"
+    [width]="width"
+    [height]="height"
+  ></particles> -->
+<br /><br>
+<p>
+    <marquee behaviour="scroll" width="1000px" height="px" color="white">
+        <strong><i>Welcome to the world of Art & Creativity</i></strong></marquee>
+</p>
+<!-- collo -->
+<!-- collo -->
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div *ngFor="let quote of quotes; let i = index">
+                    <div class="card mb-3 shadow p-3 mycard">
+                        <div>
+                            <h6 class="badge" id="{{ i }}" appStrikethrough>
+                                <!-- {{ quote.name }} <span class="blockquote-footer">This quote was posted: {{ quote.completeDate | timeAgo}}</span> -->
+                            </h6>
+                            &nbsp;
+                            <small><button (click)="toggleDetails(i)" (click)="quote.hide = !quote.hide"
+                                    class="btn btn-outline-primary btn-sm">
+                                    <i [ngClass]="quote.hide ? 'fa fa-minus' : 'fa fa-plus'"
+                                        class="fa fa-plus"></i></button></small>
+                        </div>
+                        <app-quote-detail *ngIf="quote.showDescription" [quote]="quote"
+                            (isComplete)="deleteQuote($event, i)">
+                        </app-quote-detail>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- collo -->
+
+
+<!-- collo -->
+<div class="container" id="addquote">
+    <div class="col-md-12">
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+</div>
+<br />
+<footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center pt-5">
+        All Rights Reserved 2020 <br>
+        Copyright &copy; Quotes-Book Co. <br>
+
+        <!-- <a href="quote.component.html" class="link"> Kiprutoh collo</a> -->
+    </div>
+
+    <!-- collo -->

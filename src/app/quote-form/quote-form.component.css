@@ -1,0 +1,38 @@
+.container-fluid{
+    background-color: khaki;
+}
+/* .footer{
+    background-color: lightgrey;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+} */
+
+  /* Footer */
+ h2{
+     color: grey;
+ }
+  .p{
+      background-color: white;
+  }
+p{
+    color: black;
+}
+  .bottom {
+    background-color:rgb(172, 158, 39);
+    font-size: 20px;
+  } 
+  footer{
+    padding:0.5rem;  
+  }
+  footer p{
+    text-align:center;
+    font-size: 20px;
+    color: white;
+  } 
+
+  #footer{
+      background-color: khaki;
+  }

@@ -1,0 +1,40 @@
+
+.mycard:hover {
+    box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  }
+  
+  .myquote {
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: khaki;
+    font-weight: bold;
+    font-size: xx-large;
+    color: grey;
+  }
+  
+  .mybtn {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  footer {
+    height: 20vh;
+    background-color: khaki;
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .link {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: none;
+    color: khaki;
+  }
